@@ -71,7 +71,7 @@ export default function Board() {
           {cells.map((cell) => (
             <div
               key={cell}
-              className={`py-4 text-center rounded-lg shadow transition-all duration-1000 h-10 w-10 m-0.5 ${
+              className={`py-4 text-center rounded-lg shadow transition-all duration-1000 h-10 w-10 m-1 ${
                 player1 === cell
                   ? "bg-yellow-400 text-black font-bold scale-110"
                   : "bg-blue-800 text-white"
